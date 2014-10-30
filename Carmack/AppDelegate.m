@@ -9,6 +9,8 @@
 // TODO:
 // - Add keyboard shortcut
 // - Save & record daily sessions for over-time tracking
+// - Clean up awful ticktock method
+// - Fix bug where if you click the menulet then the timer stops?
 
 
 #import "AppDelegate.h"

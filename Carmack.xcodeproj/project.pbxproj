@@ -398,6 +398,7 @@
 				23F3E11B1A0295E5002C5A7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		23F3E11C1A0295E5002C5A7E /* Build configuration list for PBXNativeTarget "CarmackTests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +407,7 @@
 				23F3E11E1A0295E5002C5A7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
