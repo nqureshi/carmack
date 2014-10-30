@@ -17,6 +17,7 @@
 @property (weak) IBOutlet NSButton *startButton;
 @property (weak) IBOutlet NSMenu *statusMenu;
 @property (strong, nonatomic) NSStatusItem *statusBar;
+@property (weak) IBOutlet NSMenuItem *workingMenu;
 
 - (void)ticktock:(id)sender;
 

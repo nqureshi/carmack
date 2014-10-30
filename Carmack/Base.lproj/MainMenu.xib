@@ -18,6 +18,7 @@
                 <outlet property="statusMenu" destination="3Qq-Me-sFi" id="HZU-7N-Yh0"/>
                 <outlet property="timeField" destination="OFD-zr-KWh" id="pDk-m1-Rps"/>
                 <outlet property="window" destination="QvC-M9-y7g" id="gIp-Ho-8D9"/>
+                <outlet property="workingMenu" destination="goM-YK-5Lt" id="FoJ-fF-Swg"/>
             </connections>
         </customObject>
         <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
@@ -716,11 +717,11 @@
         </window>
         <menu id="3Qq-Me-sFi">
             <items>
-                <menuItem title="Open" keyEquivalent="O" id="HWg-c6-o2h">
-                    <modifierMask key="keyEquivalentModifierMask"/>
-                </menuItem>
                 <menuItem title="I'm working" id="goM-YK-5Lt">
                     <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="start:" target="Voe-Tx-rLC" id="LqF-gm-ysG"/>
+                    </connections>
                 </menuItem>
                 <menuItem isSeparatorItem="YES" id="IhH-nS-RHk"/>
                 <menuItem title="Quit" id="dmO-on-PTP">

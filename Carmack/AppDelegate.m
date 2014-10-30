@@ -44,10 +44,12 @@ BOOL running=FALSE;
     NSLog(@"received a start: message");
     if(running==TRUE) {
         [_startButton setTitle:@"I'm working"];
+        [_workingMenu setTitle:@"I'm working"];
         running=FALSE;
     }
     else {
         [_startButton setTitle:@"I stopped working"];
+        [_workingMenu setTitle:@"I stopped working"];
         running=TRUE;
         [self ticktock:nil];
     }
