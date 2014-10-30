@@ -20,6 +20,18 @@ BOOL running=FALSE;
 
 @implementation AppDelegate
 
+- (void) awakeFromNib {
+    self.statusBar = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
+    
+    self.statusBar.title = @"\u29BF";
+    
+    // you can also set an image
+    //self.statusBar.image =
+    
+    self.statusBar.menu = self.statusMenu;
+    self.statusBar.highlightMode = YES;
+}
+
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
 }
@@ -35,7 +47,7 @@ BOOL running=FALSE;
         running=FALSE;
     }
     else {
-        [_startButton setTitle:@"I'm not working now"];
+        [_startButton setTitle:@"I stopped working"];
         running=TRUE;
         [self ticktock:nil];
     }

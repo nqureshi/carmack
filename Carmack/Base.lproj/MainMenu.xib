@@ -15,6 +15,7 @@
         <customObject id="Voe-Tx-rLC" customClass="AppDelegate">
             <connections>
                 <outlet property="startButton" destination="BqP-Ct-Qhd" id="s9v-kB-KvY"/>
+                <outlet property="statusMenu" destination="3Qq-Me-sFi" id="HZU-7N-Yh0"/>
                 <outlet property="timeField" destination="OFD-zr-KWh" id="pDk-m1-Rps"/>
                 <outlet property="window" destination="QvC-M9-y7g" id="gIp-Ho-8D9"/>
             </connections>
@@ -713,5 +714,23 @@
             </view>
             <point key="canvasLocation" x="189.5" y="140"/>
         </window>
+        <menu id="3Qq-Me-sFi">
+            <items>
+                <menuItem title="Open" keyEquivalent="O" id="HWg-c6-o2h">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem title="I'm working" id="goM-YK-5Lt">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="IhH-nS-RHk"/>
+                <menuItem title="Quit" id="dmO-on-PTP">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="terminate:" target="-1" id="hPX-nQ-ckz"/>
+                    </connections>
+                </menuItem>
+            </items>
+            <point key="canvasLocation" x="-34" y="288.5"/>
+        </menu>
     </objects>
 </document>

@@ -15,6 +15,8 @@
 
 @property (weak) IBOutlet NSTextField *timeField;
 @property (weak) IBOutlet NSButton *startButton;
+@property (weak) IBOutlet NSMenu *statusMenu;
+@property (strong, nonatomic) NSStatusItem *statusBar;
 
 - (void)ticktock:(id)sender;
 
