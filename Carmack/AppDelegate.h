@@ -10,6 +10,13 @@
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
+- (IBAction)start:(id)sender;
+- (IBAction)reset:(id)sender;
+
+@property (weak) IBOutlet NSTextField *timeField;
+@property (weak) IBOutlet NSButton *startButton;
+
+- (void)ticktock:(id)sender;
 
 @end
 
