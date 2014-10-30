@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23F3E1031A0295E5002C5A7E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F3E1021A0295E5002C5A7E /* AppDelegate.m */; };
+		23F3E1051A0295E5002C5A7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F3E1041A0295E5002C5A7E /* main.m */; };
+		23F3E1071A0295E5002C5A7E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23F3E1061A0295E5002C5A7E /* Images.xcassets */; };
+		23F3E10A1A0295E5002C5A7E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23F3E1081A0295E5002C5A7E /* MainMenu.xib */; };
+		23F3E1161A0295E5002C5A7E /* CarmackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F3E1151A0295E5002C5A7E /* CarmackTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23F3E1101A0295E5002C5A7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23F3E0F41A0295E5002C5A7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23F3E0FB1A0295E5002C5A7E;
+			remoteInfo = Carmack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23F3E0FC1A0295E5002C5A7E /* Carmack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carmack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23F3E1001A0295E5002C5A7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23F3E1011A0295E5002C5A7E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		23F3E1021A0295E5002C5A7E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		23F3E1041A0295E5002C5A7E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		23F3E1061A0295E5002C5A7E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		23F3E1091A0295E5002C5A7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		23F3E10F1A0295E5002C5A7E /* CarmackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarmackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23F3E1141A0295E5002C5A7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23F3E1151A0295E5002C5A7E /* CarmackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarmackTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23F3E0F91A0295E5002C5A7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F3E10C1A0295E5002C5A7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23F3E0F31A0295E5002C5A7E = {
+			isa = PBXGroup;
+			children = (
+				23F3E0FE1A0295E5002C5A7E /* Carmack */,
+				23F3E1121A0295E5002C5A7E /* CarmackTests */,
+				23F3E0FD1A0295E5002C5A7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23F3E0FD1A0295E5002C5A7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23F3E0FC1A0295E5002C5A7E /* Carmack.app */,
+				23F3E10F1A0295E5002C5A7E /* CarmackTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23F3E0FE1A0295E5002C5A7E /* Carmack */ = {
+			isa = PBXGroup;
+			children = (
+				23F3E1011A0295E5002C5A7E /* AppDelegate.h */,
+				23F3E1021A0295E5002C5A7E /* AppDelegate.m */,
+				23F3E1061A0295E5002C5A7E /* Images.xcassets */,
+				23F3E1081A0295E5002C5A7E /* MainMenu.xib */,
+				23F3E0FF1A0295E5002C5A7E /* Supporting Files */,
+			);
+			path = Carmack;
+			sourceTree = "<group>";
+		};
+		23F3E0FF1A0295E5002C5A7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				23F3E1001A0295E5002C5A7E /* Info.plist */,
+				23F3E1041A0295E5002C5A7E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		23F3E1121A0295E5002C5A7E /* CarmackTests */ = {
+			isa = PBXGroup;
+			children = (
+				23F3E1151A0295E5002C5A7E /* CarmackTests.m */,
+				23F3E1131A0295E5002C5A7E /* Supporting Files */,
+			);
+			path = CarmackTests;
+			sourceTree = "<group>";
+		};
+		23F3E1131A0295E5002C5A7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				23F3E1141A0295E5002C5A7E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23F3E0FB1A0295E5002C5A7E /* Carmack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23F3E1191A0295E5002C5A7E /* Build configuration list for PBXNativeTarget "Carmack" */;
+			buildPhases = (
+				23F3E0F81A0295E5002C5A7E /* Sources */,
+				23F3E0F91A0295E5002C5A7E /* Frameworks */,
+				23F3E0FA1A0295E5002C5A7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Carmack;
+			productName = Carmack;
+			productReference = 23F3E0FC1A0295E5002C5A7E /* Carmack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23F3E10E1A0295E5002C5A7E /* CarmackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23F3E11C1A0295E5002C5A7E /* Build configuration list for PBXNativeTarget "CarmackTests" */;
+			buildPhases = (
+				23F3E10B1A0295E5002C5A7E /* Sources */,
+				23F3E10C1A0295E5002C5A7E /* Frameworks */,
+				23F3E10D1A0295E5002C5A7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23F3E1111A0295E5002C5A7E /* PBXTargetDependency */,
+			);
+			name = CarmackTests;
+			productName = CarmackTests;
+			productReference = 23F3E10F1A0295E5002C5A7E /* CarmackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23F3E0F41A0295E5002C5A7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Nabeel Qureshi";
+				TargetAttributes = {
+					23F3E0FB1A0295E5002C5A7E = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					23F3E10E1A0295E5002C5A7E = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 23F3E0FB1A0295E5002C5A7E;
+					};
+				};
+			};
+			buildConfigurationList = 23F3E0F71A0295E5002C5A7E /* Build configuration list for PBXProject "Carmack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23F3E0F31A0295E5002C5A7E;
+			productRefGroup = 23F3E0FD1A0295E5002C5A7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23F3E0FB1A0295E5002C5A7E /* Carmack */,
+				23F3E10E1A0295E5002C5A7E /* CarmackTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23F3E0FA1A0295E5002C5A7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F3E1071A0295E5002C5A7E /* Images.xcassets in Resources */,
+				23F3E10A1A0295E5002C5A7E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F3E10D1A0295E5002C5A7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23F3E0F81A0295E5002C5A7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F3E1051A0295E5002C5A7E /* main.m in Sources */,
+				23F3E1031A0295E5002C5A7E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F3E10B1A0295E5002C5A7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F3E1161A0295E5002C5A7E /* CarmackTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23F3E1111A0295E5002C5A7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23F3E0FB1A0295E5002C5A7E /* Carmack */;
+			targetProxy = 23F3E1101A0295E5002C5A7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		23F3E1081A0295E5002C5A7E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23F3E1091A0295E5002C5A7E /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23F3E1171A0295E5002C5A7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		23F3E1181A0295E5002C5A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		23F3E11A1A0295E5002C5A7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Carmack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		23F3E11B1A0295E5002C5A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Carmack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		23F3E11D1A0295E5002C5A7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CarmackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Carmack.app/Contents/MacOS/Carmack";
+			};
+			name = Debug;
+		};
+		23F3E11E1A0295E5002C5A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CarmackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Carmack.app/Contents/MacOS/Carmack";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23F3E0F71A0295E5002C5A7E /* Build configuration list for PBXProject "Carmack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23F3E1171A0295E5002C5A7E /* Debug */,
+				23F3E1181A0295E5002C5A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23F3E1191A0295E5002C5A7E /* Build configuration list for PBXNativeTarget "Carmack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23F3E11A1A0295E5002C5A7E /* Debug */,
+				23F3E11B1A0295E5002C5A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		23F3E11C1A0295E5002C5A7E /* Build configuration list for PBXNativeTarget "CarmackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23F3E11D1A0295E5002C5A7E /* Debug */,
+				23F3E11E1A0295E5002C5A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23F3E0F41A0295E5002C5A7E /* Project object */;
+}
