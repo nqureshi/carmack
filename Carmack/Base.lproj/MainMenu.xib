@@ -717,8 +717,8 @@
         </window>
         <menu id="3Qq-Me-sFi">
             <items>
-                <menuItem title="I'm working" id="goM-YK-5Lt">
-                    <modifierMask key="keyEquivalentModifierMask"/>
+                <menuItem title="I'm working" keyEquivalent="w" id="goM-YK-5Lt">
+                    <modifierMask key="keyEquivalentModifierMask" option="YES"/>
                     <connections>
                         <action selector="start:" target="Voe-Tx-rLC" id="LqF-gm-ysG"/>
                     </connections>

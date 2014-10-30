@@ -6,6 +6,11 @@
 //  Copyright (c) 2014 Nabeel Qureshi. All rights reserved.
 //
 
+// TODO:
+// - Add keyboard shortcut
+// - Save & record daily sessions for over-time tracking
+
+
 #import "AppDelegate.h"
 
 int second=0;
@@ -33,7 +38,7 @@ BOOL running=FALSE;
 }
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    // Insert code here to initialize your application
+
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
